@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
 
 
     // console.log(keysorted)
-    res.end(JSON.stringify(keysSorted));
+    res.end(JSON.stringify(scores));
 });
 
 server.listen(port, hostname, () => {
